@@ -1,0 +1,44 @@
+/* twisty.css */
+
+
+.side3 {
+    background: rgb(243, 200, 234);
+    border: 3px solid rgb(163, 131, 25);
+    padding: 10px;
+    display:flex;
+}
+
+
+.side2 {
+    background: rgb(209, 243, 200);
+    border: 3px solid rgb(152, 63, 15);
+    padding: 10px;
+    display:flex;
+}
+
+  
+.side1 {
+    background: rgb(243, 242, 200);
+    border: 3px solid rgb(25, 38, 163);
+    padding: 10px;
+    display:flex;
+}
+
+.bottom {
+    background: rgb(255, 160, 105);
+    border: 3px solid rgb(0, 247, 255);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    text-align:center;
+    align-items: center;    
+}
+
+body {
+    background: lightgreen;
+    border:4px solid blue;  
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;   
+}

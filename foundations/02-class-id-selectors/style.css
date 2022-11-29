@@ -1,0 +1,30 @@
+/* styles.css */
+
+* {
+	font-family: Helvetica;
+    
+}
+/*
+The above * gets everything in 'containers' like <div> and <p> and <button>
+and sets the font to Helvetica.  I need to see how to specify more kinds.
+*/
+
+.classic {
+    background-color:#ffb6c1;
+    font-size: large;
+}
+.ice {
+    background-color:#ffb6c1;
+    font-size: xx-large;
+}
+
+#two {
+    color:blue;
+    font-size: xx-large;
+    font-weight: bolder
+}
+
+#four {
+    color;black;
+    background-color: cyan;
+}

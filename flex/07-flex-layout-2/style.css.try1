@@ -4,6 +4,11 @@ body {
   min-height: 100vh;
 }
 
+.wrapper {
+  border:5px dotted green;
+  display:flex;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
@@ -21,8 +26,21 @@ body {
   background: royalblue;
 }
 
+.cardholder {
+  border:3px dotted blue;
+  padding: 10px;
+  height: 200px;
+
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
 .card {
-  border: 1px solid #eee;
+  /* border: 1px solid #eee; */
+  border:1px dotted black;
+  width:200px;
+  margin: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 10px;
 }

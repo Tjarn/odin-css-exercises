@@ -1,19 +1,11 @@
-.header  {
-  font-family: monospace;
-  background: papayawhip;
-}
-
+/* style.css for exercise 2, flex header */
 .logo {
+  font-family: 'Courier New', Courier, monospace;
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
-}
-
-ul {
-  /* this removes the dots on the list items*/
-  list-style-type: none;
 }
 
 a {
@@ -22,4 +14,18 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.list {
+  display:flex;
+}
+
+.steps {
+  display:flex;
+}
+
+.header {
+  border-color: solid green;
+  background: lightgoldenrodyellow
+  
 }

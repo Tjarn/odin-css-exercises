@@ -1,0 +1,17 @@
+/* style.css */  /* project odin foundations */ 
+
+button {
+    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+button.sinister {
+    color: white;
+    background-color: black;
+}
+
+button.dexter {
+    color: black;
+    background-color:yellow;
+} 
+    

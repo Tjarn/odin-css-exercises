@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Selectors</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+  <style>button {font-size:26px}</style> 
+  <style>.sinister{background-color:lightblue;color:darkred}</style>
+  <style>.dexter{background-color: darkorchid;color:lightgoldenrodyellow}</style>
+   <style>div{background-color: darkgreen;color: lightcoral;}</style>
+
+  </head>
+  <body></body>
+  
+    <button class="sinister">Click Me!</button>
+    <button class="dexter">No, Click Me!</button>
+    <div>
+      This is just some text but how about a button?
+      <button>Click Me if You Dare!</button> An then some text behind.
+      <div style="color: white; background-color: black;">
+        Now this is more like it... an inline style.
+      </div>
+    </div>
+    <p>
+      We're out of two div's here.  in a p container.  Wonder if the color stuck with us?
+    </p>
+    <div>
+      Nope. But I wonder if <div style="color:darkgreen;background-color: lightpink;">This</div>
+      <div style="color: white; background-color: black;">will work.</div>This is what We
+      have in the deepest div.
+    </div>
+    and this is back in the body.
+    <div>
+      OK, in a top-level div. I'm going to inline change the formatting on a button right
+      here.  first a button, then another with a class. 
+      <button>I am a button!</button>
+      <button style="color: white; background-color: black;">I am a button 2</button>
+    </div>
+  </body>
+</html>
